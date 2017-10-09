@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="LARGOT.labs.AppTest" time="0.003" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="LARGOT.labs.AppTest" time="0.004" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Meeiko\AppData\Local\Temp\surefire5733924489363746858\surefirebooter6872093060379693108.jar C:\Users\Meeiko\AppData\Local\Temp\surefire5733924489363746858 2017-10-09T10-47-53_460-jvmRun1 surefire6044903720878440257tmp surefire_08076689792106580271tmp"/>
+    <property name="sun.java.command" value="C:\Users\Meeiko\AppData\Local\Temp\surefire6981068864650512074\surefirebooter605082208158788889.jar C:\Users\Meeiko\AppData\Local\Temp\surefire6981068864650512074 2017-10-09T11-45-42_834-jvmRun1 surefire4467049289174778644tmp surefire_07451660673482870404tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Meeiko\Documents\COURS\devops\TP1\DevOps_TP1\labs\target\test-classes;C:\Users\Meeiko\Documents\COURS\devops\TP1\DevOps_TP1\labs\target\classes;C:\Users\Meeiko\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Meeiko\.m2\repository\org\swinglabs\swingx\1.6.1\swingx-1.6.1.jar;C:\Users\Meeiko\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\Meeiko\.m2\repository\org\swinglabs\swing-worker\1.1\swing-worker-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Meeiko"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Meeiko\AppData\Local\Temp\surefire5733924489363746858\surefirebooter6872093060379693108.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Meeiko\AppData\Local\Temp\surefire6981068864650512074\surefirebooter605082208158788889.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,5 +62,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testApp" classname="LARGOT.labs.AppTest" time="0"/>
+  <testcase name="testApp" classname="LARGOT.labs.AppTest" time="0.001"/>
 </testsuite>

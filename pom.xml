@@ -10,26 +10,7 @@
   <name>labs</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-<!-- https://mvnrepository.com/artifact/org.swinglabs/swingx -->
-<dependency>
-    <groupId>org.swinglabs</groupId>
-    <artifactId>swingx</artifactId>
-    <version>1.6.1</version>
-</dependency>
-  </dependencies>
-  
-  <build>
+<build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -53,8 +34,27 @@
         <descriptorRefs>
           <descriptorRef>jar-with-dependencies</descriptorRef>
         </descriptorRefs>
+        <descriptors>
+                 <descriptor>src/main/java/LARGOT/labs/assemblySrc.xml</descriptor>
+                 <descriptor>src/main/java/LARGOT/labs/assemblyBin.xml</descriptor>
+        </descriptors>
+		<finalName>LARGOT-${project.version}</finalName>
       </configuration>
+       <executions>
+             <execution>
+                 <id>make-assembly</id>
+                 <phase>package</phase>
+                 <goals>
+                     <goal>single</goal>
+                 </goals>
+            </execution>
+         </executions>
     </plugin>
+    
+    
+    
+    
+   
     
     <!-- ajouté pendant le week end -->
      <plugin>
@@ -66,6 +66,27 @@
     
     </plugins>
 </build>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+<!-- https://mvnrepository.com/artifact/org.swinglabs/swingx -->
+<dependency>
+    <groupId>org.swinglabs</groupId>
+    <artifactId>swingx</artifactId>
+    <version>1.6.1</version>
+</dependency>
+  </dependencies>
+  
+  
 
 
 
